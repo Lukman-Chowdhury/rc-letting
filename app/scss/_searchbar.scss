@@ -1,0 +1,22 @@
+.search-box {
+  width: 960px;
+  height: 73px;
+  background-color: $white-color;
+  display: flex;
+  align-items: center;
+  //   justify-content: center;
+  border-radius: 18px;
+  padding: 20px;
+  > i {
+    font-size: 30px;
+    color: #777;
+  }
+  > input {
+    flex: 1;
+    height: 40px;
+    font-size: $font-med;
+    padding-left: 10px;
+    border: none;
+    outline: none;
+  }
+}
