@@ -1,0 +1,27 @@
+.section1 {
+  &-carousel {
+    // img {
+    //   width: 1864px;
+    //   height: 826px;
+    //   border-radius: 20px;
+    // }
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url("../images/img- (1).jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 1864px;
+    height: 826px;
+    border-radius: 20px;
+    background-color: $white-color;
+    > h1 {
+      position: absolute;
+      top: 30%;
+      font-size: $font-xlarge;
+      color: $white-color;
+    }
+  }
+}

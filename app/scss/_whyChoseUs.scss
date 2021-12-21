@@ -1,0 +1,31 @@
+.section3 {
+  padding: 10px 0;
+  &-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    > h1 {
+      font-size: $font-large;
+      margin: 0;
+      padding: 0;
+    }
+    > p {
+      font-size: $font-sm;
+    }
+  }
+  &-content {
+    padding: 100px 10%;
+    display: flex;
+    // > * {
+    //   flex-basis: 100%;
+    // }
+    // .img {
+    // }
+    .text .text-content {
+      > p {
+        font-size: $font-sm;
+      }
+    }
+  }
+}

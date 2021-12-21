@@ -1,0 +1,8 @@
+# Logs
+logs
+*.log
+
+#Directory
+node_modules/*
+.vscode/*
+.yarn/*
