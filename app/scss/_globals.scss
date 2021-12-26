@@ -11,6 +11,12 @@ html {
 *::after {
   box-sizing: inherit;
 }
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
 
 body {
   margin: 10px 28px;
@@ -45,6 +51,9 @@ a:hover {
   }
   &-ai-c {
     align-items: center;
+  }
+  &-fd-c {
+    flex-direction: column;
   }
 }
 

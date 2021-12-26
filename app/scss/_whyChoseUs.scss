@@ -17,6 +17,7 @@
   &-content {
     padding: 100px 10%;
     display: flex;
+    // flex-wrap: wrap;
     // > * {
     //   flex-basis: 100%;
     // }
@@ -26,6 +27,10 @@
       > p {
         font-size: $font-sm;
       }
+    }
+    .img {
+      max-width: 900px;
+      // padding-top: 58%;
     }
   }
 }

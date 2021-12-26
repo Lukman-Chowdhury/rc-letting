@@ -13,8 +13,8 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    width: 1864px;
-    height: 826px;
+    max-width: 1864px;
+    min-height: 826px;
     border-radius: 20px;
     background-color: $white-color;
     > h1 {
